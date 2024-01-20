@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link href="./styles.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet"/>
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>School Geniune</title>
@@ -10,13 +10,15 @@
 <body>
     <div>
     <div class="relative">
-        <div class="absolute -z-50 bg-blue-700 bg-opacity-100 h-40 w-24"></div>
-        <div class="absolute -z-50 right-0 bg-red-700 bg-opacity-100 height1 w-2/5 " ></div>
+        <div class="absolute -z-50 bg-blue bg-opacity-100 h-40 w-24"></div>
+        <div class="absolute -z-50 bg-blue bg-opacity-100 md:w-2/5 height1 right-0" >
     </div>
-    <div class="container mx-auto flex flex-row items-center justify-between">
-        <div class="ml-24 flex flex-row items-center  pt-5">
-        <h1 class="mr-16 font-bold text-2xl">Brandname</h1>
-        <ul class="flex flex-row gap-8">
+    </div>
+    <div>
+    <div class="container mx-auto flex flex-row items-center justify-between md:pt-6 pt-3">
+        <div class="flex flex-row gap-16 items-center md:pl-36 pl-10">
+        <h1 class="font-bold text-2xl pl-36">Brandname</h1>
+        <ul class="lg:flex hidden flex-row gap-8">
             <a>
                 <li>Home</li>
             </a>
@@ -32,29 +34,30 @@
         </ul>
     </div>
     
-<div class="flex flex-row gap-10 pr-48 h-10">
-    <button class="text-red-600">Login</button>
-    <button class="border rounded-md px-8 py-2 text-white bg-red-600">join us
+<div class="flex flex-row md:gap-10 gap-5 lg:pr-48 pr-10 sm:visible invisible">
+    <button class="text-red">Login</button>
+    <button class="border-none rounded-md md:px-8 px-3 py-2 text-white bg-red sm:text-sm text-xs">JOIN US
         <i class="fa-solid fa-arrow-right ml-2 " aria-hidden="true"></i>
     </button>
 </div>
+<div class="icon sm:hidden visible text-3xl">
+    <i class="fa-sharp fa-solid fa-bars mr-16"></i>
 </div>
-<div class="flex flex-row">
-<div class="container mx-auto">
-<div class="mt-32 px-24">
-<p class="font-semibold text-red-600">For Better Future</p>
+</div>
+<!-- <div class="container mx-auto flex flex-row justify-between">
+<div class="mt-32 ml-36">
+<p class="font-semibold text-red">For Better Future</p>
 <h1 class="text-5xl font-bold w-96 mt-10 text-gray-800">HIGHT QUALITY COURSES</h1>
 <p class="mt-10 text-gray-700 w-56">Every day brings with it a fresh set of learning possibilities.</p>
 <div class="flex flex-row mt-8">
-    <button class="px-5 py-2 border rounded-md bg-red-500 mr-2">Get Quote Now</button>
-    <button class="px-8 py-2 border-red-600 rounded-md text-red-500"> Lear More</button>
+    <button class="px-6 py-2 border rounded-md bg-red mr-2 text-white">Get Quote Now</button>
+    <button class="px-8 py-2 border border-red rounded-md text-red"> Lear More</button>
 </div>
 </div>
+<div class="container mx-auto">
+    <img class="absolute width mt-8 right-0 mr-20" src="./img/none.png">
 </div>
-<!-- <div class="mt-5 mr-24">
-<img class="w-full" src="./img/none.png">
 </div> -->
-</div>
 </div>
 
 
