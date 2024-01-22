@@ -9,7 +9,19 @@
     .height2{
         height: 200px;
     }
+    .height3{
+        height: 2px;
+    }
     .width{
         width: 500px;
+    }
+    .width1{
+        width: 300px;
+    }
+    .width2{
+        width: 180px;
+    }
+    .width3{
+        width: auto;
     }
 }

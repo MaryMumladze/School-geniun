@@ -9,15 +9,14 @@
 </head>
 <body>
     <div>
-    <div class="relative">
-        <div class="absolute -z-50 bg-blue bg-opacity-100 h-40 w-24"></div>
-        <div class="absolute -z-50 bg-blue bg-opacity-100 md:w-2/5 height1 right-0" >
+    <div class="relative"> 
+        <div class="absolute -z-50 bg-blue bg-opacity-100 sm:h-40 h-20 sm:w-24 w-12"></div>
+        <div class="absolute -z-50 bg-blue bg-opacity-100 md:w-2/5 height1 right-0"></div>
     </div>
-    </div>
-    <div>
     <div class="container mx-auto flex flex-row items-center justify-between md:pt-6 pt-3">
-        <div class="flex flex-row gap-16 items-center md:pl-36 pl-10">
-        <h1 class="font-bold text-2xl pl-36">Brandname</h1>
+        <!-- not working md:mx-28 -->
+        <div class="flex flex-row gap-16 items-center md:mx-28 mx-10">
+        <h1 class="font-bold text-2xl">Brandname</h1>
         <ul class="lg:flex hidden flex-row gap-8">
             <a>
                 <li>Home</li>
@@ -44,20 +43,101 @@
     <i class="fa-sharp fa-solid fa-bars mr-16"></i>
 </div>
 </div>
-<!-- <div class="container mx-auto flex flex-row justify-between">
-<div class="mt-32 ml-36">
+<div class="container mx-auto flex flex-row justify-between">
+<div class="md:mt-32 mt-10 mx-28">
 <p class="font-semibold text-red">For Better Future</p>
-<h1 class="text-5xl font-bold w-96 mt-10 text-gray-800">HIGHT QUALITY COURSES</h1>
-<p class="mt-10 text-gray-700 w-56">Every day brings with it a fresh set of learning possibilities.</p>
+<h1 class="lg:text-5xl text-xl font-bold w-96 md:mt-10 mt-5 text-gray-800">HIGHT QUALITY COURSES</h1>
+<p class="md:mt-10 mt-5 text-gray-700 w-56">Every day brings with it a fresh set of learning possibilities.</p>
 <div class="flex flex-row mt-8">
-    <button class="px-6 py-2 border rounded-md bg-red mr-2 text-white">Get Quote Now</button>
-    <button class="px-8 py-2 border border-red rounded-md text-red"> Lear More</button>
+    <button class="lg:px-4 px-2 py-2 border rounded-md bg-red mr-2 text-white">Get Quote Now</button>
+    <button class="lg:px-6 px-2 py-2 border border-red rounded-md text-red"> Learn More</button>
 </div>
+</div>
+<div class="">
+    <img class="absolute md:width mt-8 right-0 md:mr-20 mr-2 lg:visible invisible -z-50" src="./img/none.png">
+</div>
+</div>
+    <div class="container mx-auto mt-12">
+        <!-- not working md:mx-28 -->
+        <div class="sm:flex flex-row justify-between md:gap-8 gap-2 md:mx-28 mx-10 sm:space-y-0 space-y-2">
+        <div class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 sm:h-72 h-36 md:width1 w-auto">
+            <div class=" rounded-md bg-red bg-opacity-100 h-12 w-12">
+                <i class="fa-light fa-lamp-desk" aria-hidden="true"></i>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl mt-4">Expert instruction</h1>
+                <hr class="height3 my-6 border-0 w-12 bg-red">
+                <p class="w-3/4 mt-4 text-sm">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour...</p>
+            </div>
+        </div>
+        <div class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 sm:h-72 h-36 md:width1 w-auto">
+            <div class="rounded-md bg-blue bg-opacity-100 h-12 w-12">
+                <i class="fa-light fa-lamp-desk"></i>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl mt-4">Training Courses</h1>
+                <hr class="height3 my-6 border-0 w-12 bg-red">
+                <p class="w-3/4 mt-4 text-sm">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour...</p>
+            </div>
+        </div>
+        <div class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 sm:h-72 h-36 md:width1 w-auto">
+            <div class="rounded-md bg-yellow bg-opacity-100 h-12 w-12">
+                <i class="fa-light fa-lamp-desk"></i>
+            </div>
+            <div>
+                <h1 class="font-bold text-xl mt-4">Lifetime access</h1>
+                <hr class="height3 my-6 border-0 w-12 bg-red">
+                <p class="w-3/4 mt-4 text-sm">The gradual accumulation of 
+                    information about atomic and 
+                    small-scale behaviour...</p>
+            </div>
+        </div>
+    </div>
 </div>
 <div class="container mx-auto">
-    <img class="absolute width mt-8 right-0 mr-20" src="./img/none.png">
+    <!-- not working md:mx-28 -->
+    <div class="md:flex flex-row justify-between md:mx-28 mx-10 mb-20 mt-32 items-center">
+    <div>
+        <img class="lg:width md:width1 min-w-56" src="./img/thumb-concept.png">
+    </div>
+    <div>
+        <hr class="h-1 border-0 w-20 bg-bold-red">
+        <h1 class="sm:text-4xl text-xl font-bold my-6 w-48">Get Quality Education</h1>
+        <p class="sm:w-96 w-80 mb-6">Problems trying to resolve the conflict between 
+            the two major realms of Classical physics: 
+            Newtonian mechanics </p>
+            <button class="text-red">Learn More
+                <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+            </button>
+    </div>
 </div>
-</div> -->
+<div class="mx-28 flex flex-row justify-between items-center mb-16">
+    <img class="w-24 h-10" src="./img/Vector.png">
+    <img class="w-16 h-16" src="./img/Vector (1).png">
+    <img class="w-24 h-16" src="./img/Vector (2).png">
+    <img class="w-24 h-10" src="./img/Vector (3).png">
+    <img class="w-24 h-12" src="./img/Vector (4).png">
+    <img class="w-16 h-16" src="./img/Vector (5).png">
+</div>
+</div>
+
+    <div class="relative">
+        <div class="absolute -z-50 bg-dark-blue bg-opacity-100 h-96 w-full"></div>
+    </div>
+    <div class="container mx-auto">
+    <div>
+        <div>
+            
+        </div>
+        <!-- <div class="max-w-sm rounded overflow-hidden">
+            <img class="w-36" src="./img/product-cover-124 sec-.png">
+        </div> -->
+    </div>
+</div>
 </div>
 
 
