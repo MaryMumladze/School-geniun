@@ -26,10 +26,10 @@
     .width2{
         width: 180px;
     }
-    .width3{
-        width: auto;
-    }
     .width5{
         width: 400px;
+    }
+    .width10{
+        width: 100px;
     }
 }
