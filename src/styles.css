@@ -14,6 +14,12 @@
     .height3{
         height: 2px;
     }
+    .height4{
+        height: 850px;
+    }
+    .margin-t{
+        margin-top: 850px;
+    }
     .width{
         width: 500px;
     }
@@ -31,5 +37,8 @@
     }
     .width10{
         width: 100px;
+    }
+    .width-85{
+        width: 85px;
     }
 }

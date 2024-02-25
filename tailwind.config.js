@@ -12,6 +12,10 @@ module.exports = {
         'dark-blue': "#26335D",
         'black-text': "#252B42",
         'second-text': "#737373",
+        'alert-color': "#E77C40",
+        'disable-color': "#8EC2F2",
+        'dark-gray': "#737373",
+
       }
     },
     fontFamily: {
