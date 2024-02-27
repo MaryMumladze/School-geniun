@@ -1,396 +1,475 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <link href="./styles.css" rel="stylesheet"/>
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>School Geniune</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <div>
-    <!-- <div class="relative"> 
-        <div class="absolute -z-50 bg-blue bg-opacity-100 md:h-40 sm:h-24 h-4 md:w-24 sm:w-8 w-full"></div>
+      <div class="relative">
+        <div
+          class="absolute -z-50 bg-blue bg-opacity-100 md:h-40 sm:h-24 h-4 md:w-24 sm:w-8 w-full"
+        ></div>
         <div class="absolute -z-50 bg-blue bg-opacity-100 md:w-2/5 height1 right-0"></div>
-    </div> -->
-    <!-- <div class="container mx-auto md:pt-6 pt-3">
+      </div>
+      <div class="container mx-auto md:pt-6 pt-3">
         <div class="lg:pl-40 md:pl-20 pl-2 xl:pr-32 pr-2">
-        <div class="flex flex-row items-center sm:justify-between">
-        <div class="flex flex-row gap-14 items-center">
-        <h1 class="font-bold xl:text-2xl text-xl font-monst">Brandname</h1>
-        <ul class="md:flex hidden flex-row xl:gap-8 sm:gap-2 font-monst">
-            <a>
-                <li>Home</li>
-            </a>
-            <a>
-                <li>Product</li>
-            </a>
-            <a>
-                <li>Pricing</li>
-            </a>
-            <a>
-                <li>Contact</li>
-            </a>
-        </ul>
-    </div>
-    
-<div class="font-monst sm:flex hidden flex-row md:gap-10 gap-5">
-    <button class="text-red">Login</button>
-    <button class="border-none rounded-md lg:px-8 px-2 py-2 text-white bg-red sm:text-sm text-xs">JOIN US
-        <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
-    </button>
-</div>
-<div class="icon sm:hidden visible sm:text-3xl text-xl ml-auto">
-    <i class="fa-sharp fa-solid fa-bars"></i>
-</div>
-</div>
+          <div class="flex flex-row items-center sm:justify-between">
+            <div class="flex flex-row gap-14 items-center">
+              <h1 class="font-bold xl:text-2xl text-xl font-monst">Brandname</h1>
+              <ul class="md:flex hidden flex-row xl:gap-8 sm:gap-2 font-monst">
+                <a>
+                  <li>Home</li>
+                </a>
+                <a>
+                  <li>Product</li>
+                </a>
+                <a>
+                  <li>Pricing</li>
+                </a>
+                <a>
+                  <li>Contact</li>
+                </a>
+              </ul>
+            </div>
 
-
-<div class="mx-auto md:flex flex-row justify-between">
-<div class="md:mt-32 mt-2 font-monst">
-<p class="font-semibold text-red">For Better Future</p>
-<h1 class="lg:text-5xl text-xl font-bold sm:w-96 md:mt-10 mt-5 text-black-text leading-normal">HIGH QUALITY COURSES</h1>
-<p class="md:mt-10 mt-5 sm:w-64 w-auto text-second-text">Every day brings with it a fresh set of learning possibilities.</p>
-<div class="flex flex-row mt-8">
-    <button class="lg:px-10 px-2 lg:py-4 py-1 border rounded-md bg-red mr-2 text-white">Get Quote Now</button>
-    <button class="lg:px-10 px-2 lg:py-4 py-1 border border-red rounded-md text-red"> Learn More</button>
-</div>
-</div>
-<div>
-    <img class="absolute -z-50 xl:width width5 mt-8 right-0 lg:mr-20 mr-2 md:visible invisible" src="./img/none.png">
-</div>
-</div>
-</div>
-    <div class="container mx-auto mt-12">
-        <div class="lg:mx-40 md:mx-20 mx-2 flex sm:flex-row flex-col items-center justify-between md:gap-8 gap-2 sm:space-y-0 space-y-2 font-monst">
-        <div class=" bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 md:h-72 h-36 md:width1 w-auto">
-            <div class="rounded-md bg-red h-12 w-12">
-                <i class="fa-solid fa-binoculars text-white text-xl ml-3 mt-3"></i>
-            </div>
-            <div>
-                <h1 class="font-bold text-xl mt-4">Expert instruction</h1>
-                <hr class="height3 lg:my-6 my-2 border-0 w-12 bg-red">
-                <p class="w-5/6 mt-4 text-sm text-second-text md:visible invisible">The gradual accumulation of 
-                    information about atomic and 
-                    small-scale behaviour...</p>
-            </div>
-        </div>
-        <div class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 md:h-72 h-36 md:width1 w-auto">
-            <div class="rounded-md bg-blue h-12 w-12">
-                <i class="fa-solid fa-binoculars text-white text-xl ml-3 mt-3"></i>
-            </div>
-            <div>
-                <h1 class="font-bold text-xl mt-4">Training Courses</h1>
-                <hr class="height3 lg:my-6 my-2 border-0 w-12 bg-red">
-                <p class="w-5/6 mt-4 text-sm text-second-text md:visible invisible">The gradual accumulation of 
-                    information about atomic and 
-                    small-scale behaviour...</p>
-            </div>
-        </div>
-        <div class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 md:h-72 h-36 md:width1 w-auto">
-            <div class="rounded-md bg-yellow h-12 w-12">
-                <i class="fa-solid fa-graduation-cap text-white text-xl ml-3 mt-3"></i>
-            </div>
-            <div>
-                <h1 class="font-bold text-xl mt-4">Lifetime Access</h1>
-                <hr class="height3 lg:my-6 my-2 border-0 w-12 bg-red">
-                <p class="w-5/6 mt-4 text-sm text-second-text md:visible invisible">The gradual accumulation of 
-                    information about atomic and 
-                    small-scale behaviour...</p>
-            </div>
-        </div>
-    </div>
-</div>  
-</div> -->
- <!-- <div class="container mx-auto">
-    <div class="flex md:flex-row flex-col items-center justify-between mb-20 md:mt-32 mt-14 lg:mx-48 md:mx-20 mx-2">
-    <div>
-        <img class="lg:width5 md:width1 " src="./img/thumb-concept.png">
-    </div>
-        <div class="w-96">
-        <hr class="h-1 border-0 w-20 bg-bold-red font-monst">
-        <h1 class="md:text-4xl text-xl font-bold my-6 md:w-48 w-80 text-black-text leading-10">Get Quality Education</h1>
-        <p class="md:w-96 sm:w-72 w-auto mb-6 text-second-text">Problems trying to resolve the conflict between 
-            the two major realms of Classical physics: 
-            Newtonian mechanics </p>
-            <button class="text-red">Learn More
+            <div class="font-monst sm:flex hidden flex-row md:gap-10 gap-5">
+              <button class="text-red">Login</button>
+              <button
+                class="border-none rounded-md lg:px-8 px-2 py-2 text-white bg-red sm:text-sm text-xs"
+              >
+                JOIN US
                 <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
-            </button>
-    </div>
-</div>
-<div class="lg:mx-48 md:mx-28 sm:mx-2 my-20 flex flex-row justify-between items-center sm:visible invisible">
-    <img class="md:w-24 w-16 md:h-8 h-5" src="./img/Vector.png">
-    <img class="md:w-20 w-16 md:h-14 h-7" src="./img/Vector (1).png">
-    <img class="md:w-32 w-20 md:h-16 h-7" src="./img/Vector (2).png">
-    <img class="md:w-28 w-20 md:h-14 h-6" src="./img/Vector (3).png">
-    <img class="md:w-24 w-20 md:h-16 h-8" src="./img/Vector (4).png">
-    <img class="md:w-20 w-12 md:h-16 h-8" src="./img/Vector (5).png">
-</div>
-</div>  -->
-<div class="absolute -z-50 bg-dark-blue bg-opacity-100 w-full">
-    <div class="container mx-auto"> 
-<div class="lg:px-24 md:mx-16 md:my-20 my-10">
-        <div>
-            <p class="text-red font-monst">Practice Advice</p>
-            <h1 class="font-monst text-white md:text-4xl txt-2xl font-bold  sm:my-5 my-2">Our Popular Courses</h1>
-            <p class="font-monst text-white sm:text-sm">Problems trying to resolve the conflict between <br>
-                the two major realms of Classical physics: Newtonian mechanics </p>
-        </div>
-    <div class="flex md:flex-row flex-col justify-between mt-6">
+              </button>
+            </div>
+            <div class="icon sm:hidden visible sm:text-3xl text-xl ml-auto">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </div>
+          </div>
 
-        <div class="relative rounded bg-white lg:w-auto md:w-52  h-auto">
-            <img class="h-52 w-full" src="./img/product-cover-124 sec-.png">
-            <div class="absolute px-3 py-1 rounded-sm m-4 top-0 bg-danger-color text-white text-xs text-center leading-2">sale</div>
-            <div class="mx-4 my-4">
-            <div class="mb-2 flex flex-row justify-between items-center font-monst ">
-                <p class="text-red font-semibold text-sm font-monst">training courses</p>
-                <div class="sm:flex hidden flex-row items-center bg-dark-blue bg-opacity-100 px-1 py-1 rounded-2xl">
-                    <i class="fa-sharp fa-solid fa-star text-yellow"></i>
-                    <p class="text-white text-xs pl-1">4,9</p>
-            </div>
-            </div>
-            <div class="font-monst">
-                <h1 class="mb-2 font-semibold">Video in Live Action</h1>
-                <p class="lg:width7 sm:width2 text-sm text-second-text">We focus on ergonomics and meeting 
-                    you where you work. It's only a 
-                    keystroke away.</p>
-                    <div>
-                <p class="my-2 text-slate-500 text-xs font-bold">15 Sales</p>
-                </div>
-                <div class="flex sm:flex-row flex-col text-sm">
-                    <p class="text-slate-400 font-bold mr-1">$16.48</p>
-                   <p class="text-blue-800 font-bold"> $6.48</p>
-                </div>
-                <button class="text-red font-semibold border border-red rounded-3xl py-2 px-4 my-2">Learn more
-                    <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+          <div class="mx-auto md:flex flex-row justify-between">
+            <div class="md:mt-32 mt-2 font-monst">
+              <p class="font-semibold text-red">For Better Future</p>
+              <h1
+                class="lg:text-5xl text-xl font-bold sm:w-96 md:mt-10 mt-5 text-black-text leading-normal"
+              >
+                HIGH QUALITY COURSES
+              </h1>
+              <p class="md:mt-10 mt-5 sm:w-64 w-auto text-second-text">
+                Every day brings with it a fresh set of learning possibilities.
+              </p>
+              <div class="flex flex-row mt-8">
+                <button class="lg:px-10 px-2 lg:py-4 py-1 border rounded-md bg-red mr-2 text-white">
+                  Get Quote Now
                 </button>
-            </div>
-        </div>
-        </div>
-
-        <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto">
-            <img class="h-52 w-full" src="./img/product-cover-125 sec-.png">
-            <div class="absolute px-3 py-1 rounded-sm m-4 top-0 bg-danger-color text-white text-xs text-center leading-2">sale</div>
-            <div class="mx-4 my-4">
-            <div class="mb-2 flex flex-row justify-between items-center">
-                <p class="text-red font-semibold text-sm">Books Liberary</p>
-                <div class="sm:flex hidden flex-row items-center bg-dark-blue bg-opacity-100 px-1 py-1 rounded-2xl">
-                    <i class="fa-sharp fa-solid fa-star text-yellow"></i>
-                    <p class="text-white text-xs pl-1">4,9</p>
-            </div>
-            </div>
-            <div class="font-monst">
-                <h1 class="mb-2 font-semibold">Every Client Matters</h1>
-                <p class="lg:width7 sm:width2 text-sm text-second-text">We focus on ergonomics and meeting 
-                    you where you work. It's only a 
-                    keystroke away.</p>
-                    <div>
-                <p class="my-2 text-slate-500 text-xs font-bold">15 Sales</p>
-                </div>
-                <div class="flex sm:flex-row flex-col text-sm">
-                    <p class="text-slate-400 font-bold mr-1">$16.48</p>
-                   <p class="text-blue-800 font-bold"> $6.48</p>
-                </div>
-                <button class="text-red font-semibold border border-red rounded-3xl py-2 px-4 my-2">Learn more
-                    <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+                <button class="lg:px-10 px-2 lg:py-4 py-1 border border-red rounded-md text-red">
+                  Learn More
                 </button>
-            </div>
-        </div>
-        </div>
-
-        <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto font-monst">
-            <img class="h-52 w-full" src="./img/product-cover-126 sec-.png">
-            <div class="absolute px-3 py-1 rounded-sm m-4 top-0 bg-danger-color text-white text-xs text-center leading-2">sale</div>
-            <div class="mx-4 my-4">
-            <div class="mb-2 flex flex-row justify-between items-center">
-                <p class="text-red font-semibold text-sm">Certified Teacher</p>
-                <div class="sm:flex hidden flex-row items-center bg-dark-blue bg-opacity-100 px-1 py-1 rounded-2xl">
-                    <i class="fa-sharp fa-solid fa-star text-yellow"></i>
-                    <p class="text-white text-xs pl-1">4,9</p>
-            </div>
+              </div>
             </div>
             <div>
-                <h1 class="mb-2 font-semibold">Get Quality Education</h1>
-                <p class="lg:width7 sm:width2 text-sm text-second-text">We focus on ergonomics and meeting 
-                    you where you work. It's only a 
-                    keystroke away.</p>
-                    <div>
-                <p class="my-2 text-slate-500 text-xs font-bold">15 Sales</p>
-                </div>
-                <div class="flex sm:flex-row flex-col text-sm">
-                    <p class="text-slate-400 font-bold mr-1">$16.48</p>
-                   <p class="text-blue-800 font-bold"> $6.48</p>
-                </div>
-                <button class="text-red font-semibold border border-red rounded-3xl py-2 px-4 my-2">Learn more
-                    <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
-                </button>
+              <img
+                class="absolute -z-50 xl:width width5 mt-8 right-0 lg:mr-20 mr-2 md:visible invisible"
+                src="./img/none.png"
+              />
             </div>
+          </div>
         </div>
+        <div class="container mx-auto mt-12">
+          <div
+            class="lg:mx-40 md:mx-20 mx-2 flex sm:flex-row flex-col items-center justify-between md:gap-8 gap-2 sm:space-y-0 space-y-2 font-monst"
+          >
+            <div
+              class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 md:h-72 h-36 md:width1 w-auto"
+            >
+              <div class="rounded-md bg-red h-12 w-12">
+                <i class="fa-solid fa-binoculars text-white text-xl ml-3 mt-3"></i>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl mt-4">Expert instruction</h1>
+                <hr class="height3 lg:my-6 my-2 border-0 w-12 bg-red" />
+                <p class="w-5/6 mt-4 text-sm text-second-text md:visible invisible">
+                  The gradual accumulation of information about atomic and small-scale behaviour...
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 md:h-72 h-36 md:width1 w-auto"
+            >
+              <div class="rounded-md bg-blue h-12 w-12">
+                <i class="fa-solid fa-binoculars text-white text-xl ml-3 mt-3"></i>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl mt-4">Training Courses</h1>
+                <hr class="height3 lg:my-6 my-2 border-0 w-12 bg-red" />
+                <p class="w-5/6 mt-4 text-sm text-second-text md:visible invisible">
+                  The gradual accumulation of information about atomic and small-scale behaviour...
+                </p>
+              </div>
+            </div>
+            <div
+              class="bg-white max-w-sm rounded overflow-hidden shadow-lg md:py-6 py-3 md:pl-10 pl-3 md:h-72 h-36 md:width1 w-auto"
+            >
+              <div class="rounded-md bg-yellow h-12 w-12">
+                <i class="fa-solid fa-graduation-cap text-white text-xl ml-3 mt-3"></i>
+              </div>
+              <div>
+                <h1 class="font-bold text-xl mt-4">Lifetime Access</h1>
+                <hr class="height3 lg:my-6 my-2 border-0 w-12 bg-red" />
+                <p class="w-5/6 mt-4 text-sm text-second-text md:visible invisible">
+                  The gradual accumulation of information about atomic and small-scale behaviour...
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
-    </div>
-    </div>
-    </div>
-   
-    <!-- dont work absolute -->
-    <div class="absolute -z-50 bg-white bg-opacity-100 w-full">
-        <div class="container mx-auto font-monst">
-            <div class="lg:px-24 md:mx-10 md:my-20 my-10">
-        <div class="mb-16">
-            <p class="text-red font-monst">Practice Advice</p>
-            <h1 class="font-monst text-black md:text-3xl txt-2xl font-bold my-2">Watch our Courses</h1>
-            <p class="font-monst text-gray-600 sm:text-sm">Problems trying to resolve the conflict between <br>
-                the two major realms of Classical physics: Newtonian mechanics</p>
+      </div>
+      <div class="container mx-auto">
+        <div
+          class="flex md:flex-row flex-col items-center justify-between mb-20 md:mt-32 mt-14 lg:mx-48 md:mx-20 mx-2"
+        >
+          <div>
+            <img class="lg:width5 md:width1" src="./img/thumb-concept.png" />
+          </div>
+          <div class="w-96">
+            <hr class="h-1 border-0 w-20 bg-bold-red font-monst" />
+            <h1 class="md:text-4xl text-xl font-bold my-6 md:w-48 w-80 text-black-text leading-10">
+              Get Quality Education
+            </h1>
+            <p class="md:w-96 sm:w-72 w-auto mb-6 text-second-text">
+              Problems trying to resolve the conflict between the two major realms of Classical
+              physics: Newtonian mechanics
+            </p>
+            <button class="text-red">
+              Learn More
+              <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+            </button>
+          </div>
         </div>
-        <div class="flex md:flex-row flex-col justify-between">
+        <div
+          class="lg:mx-48 md:mx-28 sm:mx-2 my-20 flex flex-row justify-between items-center sm:visible invisible"
+        >
+          <img class="md:w-24 w-16 md:h-8 h-5" src="./img/Vector.png" />
+          <img class="md:w-20 w-16 md:h-14 h-7" src="./img/Vector (1).png" />
+          <img class="md:w-32 w-20 md:h-16 h-7" src="./img/Vector (2).png" />
+          <img class="md:w-28 w-20 md:h-14 h-6" src="./img/Vector (3).png" />
+          <img class="md:w-24 w-20 md:h-16 h-8" src="./img/Vector (4).png" />
+          <img class="md:w-20 w-12 md:h-16 h-8" src="./img/Vector (5).png" />
+        </div>
+      </div>
+      <div class="-z-50 bg-dark-blue bg-opacity-100 w-full">
+        <div class="container mx-auto">
+          <div class="lg:px-24 md:mx-16 md:my-20 my-10">
+            <div>
+              <p class="text-red font-monst">Practice Advice</p>
+              <h1 class="font-monst text-white md:text-4xl txt-2xl font-bold sm:my-5 my-2">
+                Our Popular Courses
+              </h1>
+              <p class="font-monst text-white sm:text-sm">
+                Problems trying to resolve the conflict between <br />
+                the two major realms of Classical physics: Newtonian mechanics
+              </p>
+            </div>
+            <div class="flex md:flex-row flex-col justify-between mt-6">
+              <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto">
+                <img class="h-52 w-full" src="./img/product-cover-124 sec-.png" />
+                <div
+                  class="absolute px-3 py-1 rounded-sm m-4 top-0 bg-danger-color text-white text-xs text-center leading-2"
+                >
+                  sale
+                </div>
+                <div class="mx-4 my-4">
+                  <div class="mb-2 flex flex-row justify-between items-center font-monst">
+                    <p class="text-red font-semibold text-sm font-monst">training courses</p>
+                    <div
+                      class="sm:flex hidden flex-row items-center bg-dark-blue bg-opacity-100 px-1 py-1 rounded-2xl"
+                    >
+                      <i class="fa-sharp fa-solid fa-star text-yellow"></i>
+                      <p class="text-white text-xs pl-1">4,9</p>
+                    </div>
+                  </div>
+                  <div class="font-monst">
+                    <h1 class="mb-2 font-semibold">Video in Live Action</h1>
+                    <p class="lg:width7 sm:width2 text-sm text-second-text">
+                      We focus on ergonomics and meeting you where you work. It's only a keystroke
+                      away.
+                    </p>
+                    <div>
+                      <p class="my-2 text-slate-500 text-xs font-bold">15 Sales</p>
+                    </div>
+                    <div class="flex sm:flex-row flex-col text-sm">
+                      <p class="text-slate-400 font-bold mr-1">$16.48</p>
+                      <p class="text-blue-800 font-bold">$6.48</p>
+                    </div>
+                    <button
+                      class="text-red font-semibold border border-red rounded-3xl py-2 px-4 my-2"
+                    >
+                      Learn more
+                      <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
 
-            
-            <div class="relative rounded bg-white lg:w-auto md:w-52  h-auto shadow-lg p-10">
+              <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto">
+                <img class="h-52 w-full" src="./img/product-cover-125 sec-.png" />
+                <div
+                  class="absolute px-3 py-1 rounded-sm m-4 top-0 bg-danger-color text-white text-xs text-center leading-2"
+                >
+                  sale
+                </div>
+                <div class="mx-4 my-4">
+                  <div class="mb-2 flex flex-row justify-between items-center">
+                    <p class="text-red font-semibold text-sm">Books Liberary</p>
+                    <div
+                      class="sm:flex hidden flex-row items-center bg-dark-blue bg-opacity-100 px-1 py-1 rounded-2xl"
+                    >
+                      <i class="fa-sharp fa-solid fa-star text-yellow"></i>
+                      <p class="text-white text-xs pl-1">4,9</p>
+                    </div>
+                  </div>
+                  <div class="font-monst">
+                    <h1 class="mb-2 font-semibold">Every Client Matters</h1>
+                    <p class="lg:width7 sm:width2 text-sm text-second-text">
+                      We focus on ergonomics and meeting you where you work. It's only a keystroke
+                      away.
+                    </p>
+                    <div>
+                      <p class="my-2 text-slate-500 text-xs font-bold">15 Sales</p>
+                    </div>
+                    <div class="flex sm:flex-row flex-col text-sm">
+                      <p class="text-slate-400 font-bold mr-1">$16.48</p>
+                      <p class="text-blue-800 font-bold">$6.48</p>
+                    </div>
+                    <button
+                      class="text-red font-semibold border border-red rounded-3xl py-2 px-4 my-2"
+                    >
+                      Learn more
+                      <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto font-monst">
+                <img class="h-52 w-full" src="./img/product-cover-126 sec-.png" />
+                <div
+                  class="absolute px-3 py-1 rounded-sm m-4 top-0 bg-danger-color text-white text-xs text-center leading-2"
+                >
+                  sale
+                </div>
+                <div class="mx-4 my-4">
+                  <div class="mb-2 flex flex-row justify-between items-center">
+                    <p class="text-red font-semibold text-sm">Certified Teacher</p>
+                    <div
+                      class="sm:flex hidden flex-row items-center bg-dark-blue bg-opacity-100 px-1 py-1 rounded-2xl"
+                    >
+                      <i class="fa-sharp fa-solid fa-star text-yellow"></i>
+                      <p class="text-white text-xs pl-1">4,9</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 class="mb-2 font-semibold">Get Quality Education</h1>
+                    <p class="lg:width7 sm:width2 text-sm text-second-text">
+                      We focus on ergonomics and meeting you where you work. It's only a keystroke
+                      away.
+                    </p>
+                    <div>
+                      <p class="my-2 text-slate-500 text-xs font-bold">15 Sales</p>
+                    </div>
+                    <div class="flex sm:flex-row flex-col text-sm">
+                      <p class="text-slate-400 font-bold mr-1">$16.48</p>
+                      <p class="text-blue-800 font-bold">$6.48</p>
+                    </div>
+                    <button
+                      class="text-red font-semibold border border-red rounded-3xl py-2 px-4 my-2"
+                    >
+                      Learn more
+                      <i class="fa-solid fa-arrow-right ml-2" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- dont work absolute -->
+      <div class="absolute -z-50 bg-white bg-opacity-100 w-full">
+        <div class="container mx-auto font-monst">
+          <div class="lg:px-24 md:mx-10 md:my-20 my-10">
+            <div class="mb-16">
+              <p class="text-red font-monst">Practice Advice</p>
+              <h1 class="font-monst text-black md:text-3xl txt-2xl font-bold my-2">
+                Watch our Courses
+              </h1>
+              <p class="font-monst text-gray-600 sm:text-sm">
+                Problems trying to resolve the conflict between <br />
+                the two major realms of Classical physics: Newtonian mechanics
+              </p>
+            </div>
+            <div class="flex md:flex-row flex-col justify-between">
+              <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto shadow-lg p-10">
                 <div class="rounded-full bg-red p-5 width-70">
-                    <i class="fa-solid fa-heart text-3xl text-white"></i>
+                  <i class="fa-solid fa-heart text-3xl text-white"></i>
                 </div>
                 <div class="font-monst">
-                    <h1 class="text-2xl font-bold mt-4">FREE</h1>
-                    <p class="text-slate-500 mt-4 font-bold w-56">Organize across all apps by hand</p>
-                    <div class="my-4">
-                        <h1 class="font-bold text-4xl text-red">19$</h1>
-                        <p class="light-blue">Per Month</p>
+                  <h1 class="text-2xl font-bold mt-4">FREE</h1>
+                  <p class="text-slate-500 mt-4 font-bold w-56">Organize across all apps by hand</p>
+                  <div class="my-4">
+                    <h1 class="font-bold text-4xl text-red">19$</h1>
+                    <p class="light-blue">Per Month</p>
+                  </div>
+                  <p class="w-60 text-slate-500">
+                    Slate helps you see how many more days you need...
+                  </p>
+                  <button class="lg:py-3 py-1 border rounded-md bg-red text-white w-60 my-4">
+                    Try for free
+                  </button>
+                  <div class="grid gap-4">
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
                     </div>
-                    <p class="w-60 text-slate-500">Slate helps you see how many more days you need...</p>
-                <button class=" lg:py-3 py-1 border rounded-md bg-red  text-white w-60 my-4">Try for free</button>
-                <div class="grid gap-4">
-                <div class="flex flex-row items-center ">
-                    <div class="rounded-full bg-green-500 p-4">
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
                     </div>
-                    <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-            </div>
-            <div class="flex flex-row items-center ">
-                <div class="rounded-full bg-green-500 p-4">
+
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-slate-400 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">1GB Cloud storage</p>
+                    </div>
+                    <div class="flex flex-row items-start w-60">
+                      <div class="rounded-full bg-slate-400 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Email and community support</p>
+                    </div>
+                  </div>
                 </div>
-                <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+              </div>
+
+              <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto shadow-lg p-10">
+                <div class="rounded-full bg-red p-5 width-70">
+                  <i class="fa-solid fa-heart text-3xl text-white"></i>
+                </div>
+                <div class="absolute rounded-full bg-alert-color p-5 width-70 right-0 top-0">
+                  <div class="">New</div>
+                </div>
+
+                <div>
+                  <h1 class="text-2xl font-bold mt-4">FREE</h1>
+                  <p class="dark-gray mt-4 font-bold w-56">Organize across all apps by hand</p>
+                  <div class="my-4">
+                    <h1 class="font-bold text-4xl text-red">19$</h1>
+                    <p class="disable-color">Per Month</p>
+                  </div>
+                  <p class="w-60 text-slate-500">
+                    Slate helps you see how many more days you need...
+                  </p>
+                  <button class="lg:py-3 py-1 border rounded-md bg-red text-white w-60 my-4">
+                    Try for free
+                  </button>
+                  <div class="grid gap-4">
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="white"
+                            d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z"
+                          />
+                        </svg>
+                      </div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-slate-400 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">1GB Cloud storage</p>
+                    </div>
+                    <div class="flex flex-row items-start w-60">
+                      <div class="rounded-full bg-slate-400 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Email and community support</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="relative rounded bg-white lg:w-auto md:w-52 h-auto shadow-lg p-10">
+                <div class="rounded-full bg-red p-5 width-70">
+                  <i class="fa-solid fa-heart text-3xl text-white"></i>
+                </div>
+                <div class="w-auto">
+                  <h1 class="text-2xl font-bold mt-4">FREE</h1>
+                  <p class="text-slate-500 mt-4 font-bold w-56">Organize across all apps by hand</p>
+                  <div class="my-4">
+                    <h1 class="font-bold text-4xl text-red">19$</h1>
+                    <p class="light-blue">Per Month</p>
+                  </div>
+                  <p class="w-60 text-slate-500">
+                    Slate helps you see how many more days you need...
+                  </p>
+                  <button class="lg:py-3 py-1 border rounded-md bg-red text-white w-60 my-4">
+                    Try for free
+                  </button>
+                  <div class="grid gap-4">
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-green-500 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
+                    </div>
+                    <div class="flex flex-row items-center">
+                      <div class="rounded-full bg-slate-400 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">1GB Cloud storage</p>
+                    </div>
+                    <div class="flex flex-row items-start w-60">
+                      <div class="rounded-full bg-slate-400 p-4"></div>
+                      <p class="ml-2 font-bold text-sm">Email and community support</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        
-        <div class="flex flex-row items-center ">
-            <div class="rounded-full bg-green-500 p-4"></div>
-            <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-    </div>
-    <div class="flex flex-row items-center ">
-        <div class="rounded-full bg-slate-400 p-4"></div>
-        <p class="ml-2 font-bold text-sm">1GB  Cloud storage</p>
-</div>
-<div class="flex flex-row items-start w-60">
-    <div class="rounded-full bg-slate-400 p-4"></div>
-    <p class="ml-2 font-bold text-sm">Email and community support</p>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-<div class="relative rounded bg-white lg:w-auto md:w-52  h-auto shadow-lg p-10">
-
-    <div class="rounded-full bg-red p-5 width-70">
-        <i class="fa-solid fa-heart text-3xl text-white"></i>
-    </div>
-    <div class="absolute rounded-full bg-alert-color p-5 width-70 right-0 top-0">
-        <div class="">New</div>
-    </div>
-
-    <div>
-        <h1 class="text-2xl font-bold mt-4">FREE</h1>
-        <p class="dark-gray mt-4 font-bold w-56">Organize across all apps by hand</p>
-        <div class="my-4">
-            <h1 class="font-bold text-4xl text-red">19$</h1>
-            <p class="disable-color">Per Month</p>
+          </div>
         </div>
-        <p class="w-60 text-slate-500">Slate helps you see how many more days you need...</p>
-    <button class=" lg:py-3 py-1 border rounded-md bg-red  text-white w-60 my-4">Try for free</button>
-    <div class="grid gap-4">
-    <div class="flex flex-row items-center ">
-        <div class="rounded-full bg-green-500 p-2">
-            <svg  xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-                <path fill="white" d="m9.55 18l-5.7-5.7l1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4z" />
-            </svg>
-        </div>
-        <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-</div>
-<div class="flex flex-row items-center ">
-    <div class="rounded-full bg-green-500 p-4">
-    </div>
-    <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-</div>
+      </div>
 
-<div class="flex flex-row items-center ">
-<div class="rounded-full bg-green-500 p-4"></div>
-<p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-</div>
-<div class="flex flex-row items-center ">
-<div class="rounded-full bg-slate-400 p-4"></div>
-<p class="ml-2 font-bold text-sm">1GB  Cloud storage</p>
-</div>
-<div class="flex flex-row items-start w-60">
-<div class="rounded-full bg-slate-400 p-4"></div>
-<p class="ml-2 font-bold text-sm">Email and community support</p>
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-<div class="relative rounded bg-white lg:w-auto md:w-52  h-auto shadow-lg p-10">
-    <div class="rounded-full bg-red p-5 width-70">
-        <i class="fa-solid fa-heart text-3xl text-white"></i>
-    </div>
-    <div class="w-auto">
-        <h1 class="text-2xl font-bold mt-4">FREE</h1>
-        <p class="text-slate-500 mt-4 font-bold w-56">Organize across all apps by hand</p>
-        <div class="my-4">
-            <h1 class="font-bold text-4xl text-red">19$</h1>
-            <p class="light-blue">Per Month</p>
-        </div>
-        <p class="w-60 text-slate-500">Slate helps you see how many more days you need...</p>
-    <button class=" lg:py-3 py-1 border rounded-md bg-red  text-white w-60  my-4">Try for free</button>
-    <div class="grid gap-4">
-    <div class="flex flex-row items-center ">
-        <div class="rounded-full bg-green-500 p-4">
-        </div>
-        <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-</div>
-<div class="flex flex-row items-center ">
-    <div class="rounded-full bg-green-500 p-4">
-    </div>
-    <p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-</div>
-
-<div class="flex flex-row items-center ">
-<div class="rounded-full bg-green-500 p-4"></div>
-<p class="ml-2 font-bold text-sm">Unlimited product updates</p>
-</div>
-<div class="flex flex-row items-center ">
-<div class="rounded-full bg-slate-400 p-4"></div>
-<p class="ml-2 font-bold text-sm">1GB  Cloud storage</p>
-</div>
-<div class="flex flex-row items-start w-60">
-<div class="rounded-full bg-slate-400 p-4"></div>
-<p class="ml-2 font-bold text-sm">Email and community support</p>
-</div>
-</div>
-</div>
-</div>
-        </div>
-            </div>
-           </div>
-        </div>
-
-        <!-- <div>
+      <!-- <div>
             <div class="container mx-auto height4">
             <div class="lg:px-20 md:mx-10 md:my-20 my-10">
             <div class="mb-16">
@@ -402,11 +481,6 @@
         </div>
         </div>
     </div> -->
-</div> 
-
-
-
-
-
-</body>
-</html>  
+    </div>
+  </body>
+</html>
