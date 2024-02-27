@@ -14,7 +14,7 @@ module.exports = {
         'second-text': "#737373",
         'alert-color': "#E77C40",
         'disable-color': "#8EC2F2",
-        'dark-gray': "#737373",
+        'dark-gray': "#A39F9F",
 
       }
     },
